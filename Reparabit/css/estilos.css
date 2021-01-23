@@ -1,0 +1,145 @@
+html{
+   font-size: 62.5%; /*normalizar para REMS*/
+}
+
+body{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.6rem;
+}
+
+ /* principales */
+h1{
+   font-size: 4rem;
+}
+
+h2{
+   font-size: 3.6rem;
+}
+
+h3{
+   font-size: 3rem;
+}
+
+h4{
+   font-size: 2.6rem;
+}
+
+.contenedor{
+   max-width: 140rem;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.espacio{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.fw300{
+   font-weight: 300;
+}
+
+.centrar-texto{
+   text-align: center;
+}
+
+img{
+   max-width: 100%;
+}
+
+/* header */
+.site-header{
+    background-image: url(../imagenes/principal01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 50rem;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ #slogan h1{
+   text-align: center;
+   color: green;
+   text-shadow: -5rem -3.5rem .6rem gray;
+}
+
+#slogan h4{
+   text-align: center;
+   color: green;
+   text-shadow: -4rem -3.5rem .6rem gray;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 10px; */
+ }
+
+ /* Navegación */
+ .navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20px;
+    text-shadow: -6rem -3.5rem .7rem black;
+ }
+
+ .navegacion a:hover{
+    color: greenyellow;
+ }
+ 
+ .navegacion a:last-of-type{
+    margin: 0;
+ }
+
+/* Por que elegirnos */
+.elegirnos{
+   display: flex;
+}
+
+.razones{
+   flex-basis: calc (25% - 2rem);
+   text-align: center;
+}
+
+.razones i{
+   font-size: 7rem;
+   color: green;
+   text-shadow: -.2rem -.4rem .1rem black;
+}
+
+/* Oferta de servicios */
+.oferta{
+   display: flex;
+   justify-content: space-between;
+}
+
+.servicio{
+   flex-basis:calc(25% - 1rem);
+   /* border-style: dotted;
+   border-color: lightgray;
+   border-width: .2rem; */
+   border: .2rem dotted gray;
+}
+
+.contenido-servicio{
+   padding: 2rem;
+   text-align: center;
+}
+
+.contenido-servicio p,
+.contenido-servicio h3{
+   margin: 0%;
+}
+
+.precio{
+   color: teal;
+   font-weight: 700;
+}
